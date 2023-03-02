@@ -4,7 +4,7 @@ Google Apps Script を使用して決まった時間に LINE のトークにそ�
 
 ## Why Use Google App Script?
 
-Google App Script は、Google アカウントさえあれば誰でも無料で使用でき、指定の時間にトリガーを設定することで、定期的に処理を実行することができるため。
+Google App Script は、Google アカウントさえあれば誰でも無料で使用でき、指定の時間にトリガーを設定することで、定期的に処理を実行することができる。
 
 また、clasp を使用することで、VScode と TypeScript を使用して開発をすることができるため。
 
@@ -32,13 +32,13 @@ pnpm clasp login
 pnpm clasp create --type standalone
 ```
 
-5. 
+5. Google App Script にファイルをプッシュする
 
 ```bash
 pnpm clasp push
 ```
 
-6. 
+6. ブラウザでプロジェクトを開く
 
 ```bash
 pnpm clasp open
@@ -59,5 +59,4 @@ pnpm clasp open
 
 Google App Script で、繰り返し実行する際は1時間単位での指定なので「毎日の〇時〇分」という指定はできません。
 
-そのため、その日の7時にトリガーを設定する`setTrigger`を作成し、この関数を毎日「6〜7時」に実行するようにトリガーを設定します。
-
+そのため、その日の7時にトリガーを設定する`setTrigger`を使用し、この関数を毎日「6〜7時」に実行するようにトリガーを設定します。
