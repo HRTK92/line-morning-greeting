@@ -1,4 +1,9 @@
 {
+	"name": "line-morning-greeting",
+	"version": "1.0.0",
+	"scripts": {
+		"push": "clasp push"
+	},
 	"dependencies": {
 		"typescript": "^4.9.5",
 		"@google/clasp": "^2.4.2"
