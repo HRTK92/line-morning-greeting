@@ -213,6 +213,7 @@ function message(date: Date, famousQuote: FamousQuote, weather: Weather) {
                   text: `最終更新: ${weather.description.publicTime}`,
                   size: 'xs',
                   wrap: true,
+                  color: '#aaaaaa',
                 },
               ],
             },
@@ -222,11 +223,10 @@ function message(date: Date, famousQuote: FamousQuote, weather: Weather) {
     },
   ]
 }
-function setTrigger(){
 
+function setTrigger(){
   const time = new Date();
   time.setHours(7);
   time.setMinutes(0);
   ScriptApp.newTrigger('main').timeBased().at(time).create();
-
 }
