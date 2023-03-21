@@ -1,4 +1,4 @@
-# line-morning-greeting
+# LINE Morning Greeting
 
 Google Apps Script を使用して決まった時間に LINE のトークにその日の天気や名言を送信する
 
