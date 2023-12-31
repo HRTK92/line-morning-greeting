@@ -5,10 +5,10 @@
 		"push": "clasp push"
 	},
 	"dependencies": {
-		"typescript": "^4.9.5",
-		"@google/clasp": "^2.4.2"
+		"@google/clasp": "^2.4.2",
+		"typescript": "^5.3.3"
 	},
 	"devDependencies": {
-		"@types/google-apps-script": "^1.0.57"
+		"@types/google-apps-script": "^1.0.78"
 	}
 }
