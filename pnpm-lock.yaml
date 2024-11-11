@@ -16,8 +16,8 @@ importers:
         version: 5.6.3
     devDependencies:
       '@types/google-apps-script':
-        specifier: ^1.0.83
-        version: 1.0.83
+        specifier: ^1.0.85
+        version: 1.0.85
 
 packages:
 
@@ -49,8 +49,8 @@ packages:
   '@types/cacheable-request@6.0.3':
     resolution: {integrity: sha512-IQ3EbTzGxIigb1I3qPZc1rWJnH0BmSKv5QYTalEwweFvyBDLSAe24zP0le/hyi7ecGfZVlIVAg4BZqb8WBwKqw==}
 
-  '@types/google-apps-script@1.0.83':
-    resolution: {integrity: sha512-o+QNeNZxPAfYHzRiLHjub9qF0IILg21r9MzYlnrIHUT+/wcC70aqDfedmzKTgtzsj79zvoTZD0cjGgy46+1Ynw==}
+  '@types/google-apps-script@1.0.85':
+    resolution: {integrity: sha512-O5w3PxI75uqU4d7t24ukQtU87OZ2j0vQp3VWmx9sJ6PTwBRvGhMA+qWShKNetofI8TYaVd8tFzBQXgv3e7ycCQ==}
 
   '@types/http-cache-semantics@4.0.4':
     resolution: {integrity: sha512-1m0bIFVc7eJWyve9S0RnuRgcQqF/Xd5QsUZAZeQFr1Q3/p9JWoQQEqmVy+DPTNpGXwhgIetAoYF8JSc33q29QA==}
@@ -1060,7 +1060,7 @@ snapshots:
       '@types/node': 20.10.6
       '@types/responselike': 1.0.3
 
-  '@types/google-apps-script@1.0.83': {}
+  '@types/google-apps-script@1.0.85': {}
 
   '@types/http-cache-semantics@4.0.4': {}
 
