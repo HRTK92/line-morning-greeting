@@ -5,7 +5,7 @@
 		"push": "clasp push"
 	},
 	"dependencies": {
-		"@google/clasp": "^2.4.2",
+		"@google/clasp": "^2.5.0",
 		"typescript": "^5.8.3"
 	},
 	"devDependencies": {
