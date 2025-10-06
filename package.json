@@ -6,7 +6,7 @@
 	},
 	"dependencies": {
 		"@google/clasp": "^2.5.0",
-		"typescript": "^5.9.2"
+		"typescript": "^5.9.3"
 	},
 	"devDependencies": {
 		"@types/google-apps-script": "^2.0.1"
